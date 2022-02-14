@@ -7,17 +7,19 @@
     <title>Iniciando HTML</HTML></title>
 </head>
 <body>
-    <H1>titulo 1</H1>
-    <h2>TÍTULO 2</h2>
-    <h3>TÍTULO 3</h3>
-    <h4>TÍTULO 4</h4>
+    <H1>Página de prueba html</H1>
+    <h2>Entrada de Título 2</h2>
+    <h3>Entrada de Título 3</h3>
+    <h4>Entrada de Título 4</h4>
     
-    <p>dar <strong> para</strong> 
+    <p>dar clic <strong> para</strong> 
     
     <a href="https://www.youtube.com" target="_blank">ver videos</a>
 
-    , <en>te llevará a youtube</en>
-    </P>
+    te llevará a youtube </p>
+    
+
+    
     <h3>lista desordenada</h3>
     <ul>
         <li>frutas</li>
@@ -26,23 +28,33 @@
     </ul>
     <h3>lista ordenada</h3>
     <ol>
-        <li>D</li>
-        <li>C</li>
-        <li>Y</li>        
-        <li>T</li>
-        <li>A</li>
-        <li>H</li>
-
+        <li>ALFA</li>
+        <li>BETA</li>
+        <li>GAMMA</li>        
+        
     </ol>
+    <h3>Tabla</h3>
     <table>
-       <TD>
-        <TR>FILA 1</TD>
-        <TR>FILA 2</TD>
-       </TD>
+        <tr>
+            <th>Título columna 1</th>
+            <th>Título columna 2</th>
+            <th>Título columna 3</th>
+        </tr>
+        <tr>
+            <td>columna 1 fila 1</td>
+            <td>columna 2 fila 1</td>
+            <td>columna 3 fila 1</td>
+        </tr>
+        <tr>
+            <td>columna 1 fila 2</td>
+            <td>columna 2 fila 2</td>
+            <td>columna 3 fila 2</td>
+        </tr>
     </table>
-
+    <h3>imagen del fantasma</h3>
     <img src="E:\Coding Dojo\programación\fundamentos web\Repositorio VSC\Iniciando HTML/Fantasma.jpg" alt="fantasma">
 
+    <h3>cuestionario</h3>
     <form>
         <div>
             <Input type="text" name="imput text">
@@ -53,34 +65,35 @@
             <input type="date" name="fecha">
             <input type="email" Name="correo">
         </div>
+        <h3>Estado civil</h3>
         <div>
             <input type="radio" name="estadocivil" value="casado" id="casado">
             <label for="casado">casado</label>
-            <input type="radio" name="estadocivil" value="soltero">
-            <label>soltero</label>
-            <input type="radio" name="estadocivil" value="viudo">
-            <label>viudo</label>
-            <input type="radio" name="estadocivil" value="divorciado">
-            <label>divorciado</label>
-        </div>
-        <div>
-            <input type="radio" name="estadocivil" value="con el toxico">
-            <label>con el tóxico</label>
+            <input type="radio" name="estadocivil" value="soltero" id="soltero">
+            <label for="soltero">soltero</label>
+            <input type="radio" name="estadocivil" value="viudo" id="viudo">
+            <label for="viudo">viudo</label>
+            <input type="radio" name="estadocivil" value="divorciado" id="divorciado">
+            <label for="divorciado">divorciado</label>
+            <input type="radio" name="estadocivil" value="con el toxico" id="con el toxico">
+            <label for="con el toxico">con el tóxico</label>
         </div>
 
         <div>
-            <H2>
+            <H3>
                 Hora de despertar
-            </H2>
+            </H3>
              <input Type="radio" name="hora" value="5am" id="am5">
              <label for="am5">5am</label>
              <input type="radio" name="hora" value="6am" id="am6">
              <label for="am6">6am</label>
         </div>
+        <h3>Mayoria de edad</h3>
         <div>
             <input type="checkbox" name="mayordeedad" Id="mayoredad">
             <label for="mayoredad">¿eres mayo de edad?</label>
         </div>
+        <h3>Hobbie</h3>
         <div>
             <select name="hobbie">
                 <option >leer</option>
