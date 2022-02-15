@@ -1,0 +1,16 @@
+.título {
+    background-color: black;
+    font-family: cursive;
+}
+.título2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(166, 0, 243);
+    font-style: italic;
+    text-align: center;
+}
+.título3 {
+    color: rgb(53, 52, 52);
+    background-color: rgb(146, 211, 255);
+    font-style: italic;
+    text-align: right;
+}
