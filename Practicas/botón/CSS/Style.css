@@ -1,0 +1,15 @@
+.box1 {
+    height: 400px;
+    width: 300px;
+    background-color: green;
+    margin: 15px;
+}
+
+.Box2 {
+    height: 90px;
+    width: 65px;
+    background-color: rgb(211, 151, 23);
+    padding: 20px 15px 15px 30px;
+    margin: 30px;
+    border: 15px solid rgb(23, 0, 128);
+}
