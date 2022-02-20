@@ -1,15 +1,30 @@
-.box1 {
-    height: 400px;
-    width: 300px;
-    background-color: green;
-    margin: 15px;
+.search {
+    color: rgb(54, 192, 135);
+    font-size: 25px;
+    border: 3px solid rgb(54, 192, 135);
+    border-radius: 25px;
+    background-color: white;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
 }
-
-.Box2 {
-    height: 90px;
-    width: 65px;
-    background-color: rgb(211, 151, 23);
-    padding: 20px 15px 15px 30px;
-    margin: 30px;
-    border: 15px solid rgb(23, 0, 128);
+.cruz {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    border-radius: 50%;
+    background-color:  rgb(54, 192, 135);
+    margin: 10px;
+    border-style: none;
+}
+.Create {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 2px;
+    background-color: rgb(61, 37, 107);
+    margin: 10px;
+    border-color: rgb(168, 154, 194);
+    box-shadow: 3px 3px rgb(94, 92, 92);
+}
+::placeholder {
+    color: rgb(54, 192, 135);
 }
